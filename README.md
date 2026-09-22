@@ -7,7 +7,7 @@ This project implements a simple **Transformer-style sequence-to-sequence model*
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 We construct a minimal pipeline for machine translation:
 
@@ -23,7 +23,7 @@ The model learns by repeatedly answering the question:
 
 ---
 
-## 📊 Data Preparation
+## Data Preparation
 
 We begin with a small collection of parallel sentences in two languages. Each English sentence is paired with its Spanish translation.
 
@@ -44,7 +44,7 @@ This allows the model to learn both **when to start generating** and **when to s
 
 ---
 
-## 🔁 Training Strategy (Core Idea)
+## Training Strategy (Core Idea)
 
 Instead of predicting the whole sentence at once, the model learns **one step at a time**.
 
@@ -74,7 +74,7 @@ This is called **teacher forcing**.
 
 ---
 
-## 🧠 Mathematical Formulation (Plain Text)
+## Mathematical Formulation (Plain Text)
 
 Let:
 
@@ -112,7 +112,7 @@ Meaning:
 
 ---
 
-## 🔢 One-Hot Encoding
+## One-Hot Encoding
 
 Each correct output token is converted into a vector of size V:
 
@@ -128,7 +128,7 @@ This allows comparison with the model’s predicted probability distribution.
 
 ---
 
-## ⚙️ Model Components
+## Model Components
 
 - **Embedding Layer** → converts tokens to vectors  
 - **Positional Encoding (PE)** → injects order information  
@@ -138,7 +138,7 @@ This allows comparison with the model’s predicted probability distribution.
 
 ---
 
-## 📉 Training Results
+## Training Results
 
 ### Optimizer Comparison
 
@@ -179,7 +179,7 @@ The model successfully learns the sequence prediction task and converges properl
 
 ---
 
-## 🧩 Key Takeaways
+## Key Takeaways
 
 - Sequence-to-sequence models learn by **predicting the next token**
 - Special tokens (`startseq`, `endseq`) are critical for training
@@ -189,7 +189,7 @@ The model successfully learns the sequence prediction task and converges properl
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Use a larger dataset
 - Add attention visualization
@@ -199,7 +199,7 @@ The model successfully learns the sequence prediction task and converges properl
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 
