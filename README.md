@@ -202,8 +202,19 @@ The model successfully learns the sequence prediction task and converges properl
 ## File Structure
 
 ```
+
 keras-transformers.ipynb   # main notebook
-adam_adagrad.png           # optimizer comparison
-glorot_he_uniform.png      # initialization comparison
-training_loss.png          # training curve
+adam_adagrad.png          # optimizer comparison
+glorot_he_uniform.png     # initialization comparison
+training_loss.png         # training curve
+
 ```
+
+---
+
+
+
+* make it **more “impressive for recruiters”**
+* or **more minimal / academic / Overleaf-style**
+
+
