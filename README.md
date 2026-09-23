@@ -216,3 +216,5 @@ training_loss.png         # training curve
 
 * make it **more “impressive for recruiters”**
 * or **more minimal / academic / Overleaf-style**
+
+
